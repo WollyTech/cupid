@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+.message {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.buttons {
+    margin-top: 20px;
+}
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    margin: 0 10px;
+    background-color: #ff4081;
+    color: white;
+    text-decoration: none;
+}
+.button:hover {
+    background-color: #d81b60;
+}
+#retryMessage {
+    margin-top: 20px; /* Adjust the value as needed */
+}
