@@ -23,7 +23,7 @@ function reply(response) {
             document.getElementById('retryMessage').textContent = "I see you're trying to select a different option. Let me just move out of your way";
             messageDisplayed = true;
         } else if (noButtonClickCount === 7) {
-            document.getElementById('retryMessage').textContent = "Maybe if I'm just barely visible...";
+            document.getElementById('retryMessage').textContent = "I know you're sick, have an exam the day AND have a marketing report due but I am too far in to stop now...";
             messageDisplayed = true;
         } else if (!messageDisplayed) {
             document.getElementById('retryMessage').textContent = "My bad, I misread your input. Do you want to try again?";
